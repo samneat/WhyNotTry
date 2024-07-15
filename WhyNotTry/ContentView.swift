@@ -11,7 +11,7 @@ struct ContentView: View {
     
     var activities = ["Archery", "Baseball", "Badminton", "Basketball", "Bowling", "Boxing", "Climbing", "Cricket", "Curling", "Fencing","Fishing", "Golf", "Handball","Hiking", "Hockey","Kickboxing","Lacrosse", "Pickleball", "Pilates", "Rugby", "Sailing", "Skateboarding", "Snowboarding","Surfing", "Softball", "Squash", "Taichi", "Tennis", "Volleyball", "Wrestling", "Yoga"]
     
-    var colors: [Color] = [.blue, .cyan, .gray, .green, .indigo, .mint, .orange, .pink, .purple, .red]
+    var colors: [Color] = [.blue, .cyan, .gray, .green, .indigo, .mint, .orange, .pink, .purple, .red, .teal, .yellow, .brown, .black]
     
     @State private var selected = "Archery"
     @State private var id = 1
